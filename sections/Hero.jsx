@@ -38,7 +38,6 @@ const Hero = () => {
           <Image
             src="/cover.png"
             alt="cover"
-            objectFit="cover"
             height={1000}
             width={1500}
             className="w-full sm:h-[500px] object-cover rounded-tl-[140px] z-10 relative"

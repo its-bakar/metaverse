@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
 import Explore from "@/sections/Explore";
+import Feedback from "@/sections/Feedback";
 import GetStarted from "@/sections/GetStarted";
 import Hero from "@/sections/Hero";
 import Insights from "@/sections/Insights";
@@ -21,9 +22,13 @@ export default function Home() {
       <GetStarted/>
       <div className="gradient-04 z-0" />
       <WhatsNew/>
-      </div>
-      <World/>
+      </div><World/>
+      <div className="relative">
       <Insights/>
+      <div className="gradient-04 z-0" />
+      <Feedback/>
+      </div>
+      
     </div>
   );
 }
