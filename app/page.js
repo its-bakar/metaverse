@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
 import Explore from "@/sections/Explore";
@@ -28,7 +29,7 @@ export default function Home() {
       <div className="gradient-04 z-0" />
       <Feedback/>
       </div>
-      
+      <Footer/>
     </div>
   );
 }
